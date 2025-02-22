@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color:black;
+  }
+  
+  .navbar {
+    height: 10rem;
+    width: 100%;
+    background-color: aqua;
+  }
+  
+  .un1,
+  .un2 {
+    text-align: right;
+    font-size: 2.5rem;
+  }
+  
+  .un1 li {
+    display: inline-block;
+    padding: 3.5rem;
+  }
+  
+  .un2 li {
+    display: inline-block;
+    padding: 3.5rem;
+  }
+  
+  .signup {
+    width: 41rem;
+    padding: 2.5rem;
+    box-shadow: 0rem 0rem 1rem 0.2rem grey;
+    border-radius: 1.5rem;
+  }
+  
+  .signup h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 3.5rem;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .input-Box {
+    border: grey solid 0.2rem;
+    display: block;
+    height: 4rem;
+    width: 40rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+  }
+  
+  .btn {
+    height: 4rem;
+    width: 12rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    background-color: rgb(94, 255, 255);
+    color: red;
+    border: grey solid 0.2rem;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  .btn:hover {
+    background-color: aqua;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  .btn1 {
+    background-color: white;
+    color: black;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border: grey solid 1px;
+  }
+  
+  .btn1:hover{background-color: rgb(222, 219, 219);}
+  
+  .bt {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+  }
+  
+  .btn2 {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(164, 234, 211);
+    color: red;
+    border: grey solid 0.1rem;
+    border-radius: 0.3rem;
+    float: right;
+    margin: 3.5rem;
+    display: none;
+  }
+  
+  .active {
+    color: red;
+  }
+  .error-page{color:white;text-align: center;margin:35px;}
+  
+  
+  .search-Box{height: 3.5rem;width: 25rem;padding: 0.5rem;border:grey solid 0.2rem;margin:0rem 0rem 1.5rem 1rem;border-radius:0.8rem;font-size: 2rem;}
+  
+  .text {
+    font-size: 2rem;
+    color: red;
+  }
+  
+  .main-signup {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer {
+    background-color: aqua;
+    color: red;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+  }
+  
+  
+  .product-list {
+    width: 70rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    color: white;
+    border: grey solid 0.1rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
+  
+  table {
+    width: 70rem;
+    border-collapse: collapse;
+  }
+  
+  
+  .product-list h1 {
+    text-align: center;
+    margin: 3rem 0rem 3rem 0rem;
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+  
+  .image img {
+    height: 7.5rem;
+    width: 7.5rem;
+    float: left;
+    margin: 1.5rem 0rem 0rem 2.5rem;
+    border-radius: 1rem;
+  }
+  
+  .btn4{font-size: 1.6rem;}
+  .logout-btn{font-size: 1.7rem;padding: 0.2rem 0.5rem 0.2rem 0.5rem;border-radius:0.5rem;background-color:aquamarine;color: red;border: grey solid 0.2rem;cursor: pointer;}
+  .logout-btn:hover{background-color:rgb(94, 250, 198);}
+  .name{margin-right:2.5rem;}
+  @media only screen and (max-width:750px) {
+  
+    .product-list,
+    table {
+        width: 317px;
+        font-size: 12px;
+    }
+  }
+  
+  
+  @media only screen and (max-width:550px) {
+    html {
+        font-size: 6.9px;
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width:950px) {
+     .btn2 {
+        display: block;
+    }
+  
+    .un1 {
+        background-color: aquamarine;
+        position: fixed;
+        top: 10rem;
+        right: -100%;
+        text-align: center;
+        width: 100%;
+        height: 90vh;
+    }
+  
+    .un1 li {
+        display: block;
+    }
+  
+    .x1 {
+        right: 0%;
+    }
+  }
